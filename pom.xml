@@ -18,7 +18,7 @@
 			<id> deployment </id>
 			<name> internal snapshot release </name>
 			<url> http://52.77.225.152:8081/repository/nexus_maven2_hosted </url>
-		</snapRepository>
+		</snapshotRepository>
 	<distributionManagement>
 		
 	<dependencies>
