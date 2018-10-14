@@ -8,6 +8,19 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>mvn-hello-world Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<distributionManagement>
+		<repository>
+			<id> deployment </id>
+			<name> internal release </name>
+			<url> http://52.77.225.152:8081/repository/Nexus_MAven_Release/ </url>
+		</repository>
+		<snapshotRepository>
+			<id> deployment </id>
+			<name> internal snapshot release </name>
+			<url> http://52.77.225.152:8081/repository/nexus_maven2_hosted </url>
+		</snapRepository>
+	<distributionManagement>
+		
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
